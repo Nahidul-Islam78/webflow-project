@@ -63,7 +63,7 @@
 .main-section{
   max-width: 1140px;
   margin: 0 auto;
-  color: #F5F8FF;
+  color: #D6DDED;
 }
 
 /*style action section*/
@@ -91,6 +91,7 @@
 .action-section .live-preview{
   width: 229px;
   height: 48px;
+  font-size: 16px;
 }
 .productive-users{
   height: 360px;
@@ -179,4 +180,51 @@
 }
 .profile-date{
   color:#C9CACB ;
+}
+
+
+/*style touch section*/
+.touch-section{
+  height: 632px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  gap: 225px;
+  
+}
+.touch-section .touch-title{
+  color: #252432;
+  font-size: 90px;
+
+
+}
+
+.form label{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  display: block;
+  color: #252432;
+  font-size: 18px;
+  font-weight: 500px;
+}
+.form .form-input{
+  font-size: 20px;
+  padding-left: 20px;
+  border: 3px solid #E2E7F3;
+  border-radius: 10px;
+  width: 497px;
+  height: 70px;
+}
+.form textarea{
+  border: 2px solid #E2E7F3;
+  border-radius: 10px;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.form .form-btn{
+  margin-top: 15px;
+  width: 520px;
+  height: 62px;
+  font-size: 16px;
 }
