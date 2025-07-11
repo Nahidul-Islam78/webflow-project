@@ -51,4 +51,33 @@
   color: #252432;
   font-size: 60px;
 }
+.main-section{
+  max-width: 1140px;
+  margin: 0 auto;
+}
 
+.action-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height:50dvh;
+  margin-top: 30px;
+}
+.action-section img{
+  width: 400px;
+  height: 300px;
+  border-radius: 48px;
+}
+.action-section .action-title{
+  color: #252432;
+  font-size: 42px;
+}
+.action-section .sub-title{
+  color: #252432;
+  font-size: 24px;
+  font-weight: 400;
+}
+.action-section .live-preview{
+  width: 229px;
+  height: 48px;
+}
